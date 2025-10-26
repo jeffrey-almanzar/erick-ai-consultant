@@ -9,7 +9,7 @@ export function CaseStudiesSection() {
       challenge: "Reduce equipment downtime and maintenance costs through predictive analytics.",
       solution: "Developed ML models analyzing sensor data to predict equipment failures 48 hours in advance.",
       results: ["35% reduction in unplanned downtime", "$2.4M annual cost savings", "92% prediction accuracy"],
-      image: "/manufacturing-factory-equipment-sensors.jpg",
+      image: "manufacturing-factory-equipment-sensors.jpg",
       gradient: "from-primary/10 to-accent/10",
     },
     {
@@ -23,7 +23,7 @@ export function CaseStudiesSection() {
         "3x ROI on retention campaigns",
         "Early warning system 30 days in advance",
       ],
-      image: "/customer-analytics-dashboard-charts.jpg",
+      image: "customer-analytics-dashboard-charts.jpg",
       gradient: "from-accent/10 to-secondary/10",
     },
     {
@@ -37,7 +37,7 @@ export function CaseStudiesSection() {
         "95% accuracy in clause extraction",
         "Processing 1000+ documents daily",
       ],
-      image: "/legal-documents-contract-analysis.jpg",
+      image: "legal-documents-contract-analysis.jpg",
       gradient: "from-secondary/10 to-primary/10",
     },
   ]
