@@ -18,27 +18,33 @@ export function ContactSection() {
           </div>
 
           {/* Contact Info */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            <Card className="p-6 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
-              <MapPin className="h-6 w-6 text-primary mb-3" />
-              <h3 className="font-semibold text-foreground mb-2">Location</h3>
+          <div className="grid sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="p-8 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex items-center gap-3 mb-4">
+                <MapPin className="h-8 w-8 text-primary flex-shrink-0" />
+                <h3 className="font-semibold text-foreground">Location</h3>
+              </div>
               <p className="text-muted-foreground">New York City, NY</p>
             </Card>
 
-            <Card className="p-6 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
-              <Mail className="h-6 w-6 text-primary mb-3" />
-              <h3 className="font-semibold text-foreground mb-2">Email</h3>
+            <Card className="p-8 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex items-center gap-3 mb-4">
+                <Mail className="h-8 w-8 text-primary flex-shrink-0" />
+                <h3 className="font-semibold text-foreground">Email</h3>
+              </div>
               <a
                 href="mailto:ericaragundi@gmail.com"
-                className="text-muted-foreground hover:text-accent transition-colors"
+                className="text-muted-foreground hover:text-accent transition-colors break-all"
               >
                 ericaragundi@gmail.com
               </a>
             </Card>
 
-            <Card className="p-6 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
-              <Linkedin className="h-6 w-6 text-primary mb-3" />
-              <h3 className="font-semibold text-foreground mb-2">LinkedIn</h3>
+            <Card className="p-8 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex items-center gap-3 mb-4">
+                <Linkedin className="h-8 w-8 text-primary flex-shrink-0" />
+                <h3 className="font-semibold text-foreground">LinkedIn</h3>
+              </div>
               <a
                 href="https://www.linkedin.com/in/eric-aragundi/"
                 target="_blank"
@@ -49,9 +55,11 @@ export function ContactSection() {
               </a>
             </Card>
 
-            <Card className="p-6 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
-              <BookOpen className="h-6 w-6 text-primary mb-3" />
-              <h3 className="font-semibold text-foreground mb-2">Google Scholar</h3>
+            <Card className="p-8 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex items-center gap-3 mb-4">
+                <BookOpen className="h-8 w-8 text-primary flex-shrink-0" />
+                <h3 className="font-semibold text-foreground">Google Scholar</h3>
+              </div>
               <a
                 href="https://scholar.google.com"
                 target="_blank"
