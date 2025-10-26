@@ -65,8 +65,15 @@ export function ResearchSection() {
                   <div className="flex items-start gap-3 mb-3">
                     <FileText className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-serif text-xl font-bold text-foreground mb-2 hover:text-primary transition-colors">
-                        {pub.title}
+                      <h3 className="font-serif text-xl font-bold text-foreground mb-2">
+                        <a 
+                          href={pub.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-primary transition-colors cursor-pointer"
+                        >
+                          {pub.title}
+                        </a>
                       </h3>
                       {pub.featured && (
                         <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-medium bg-primary/20 text-primary rounded-full mb-3 border border-primary/30">

@@ -6,8 +6,8 @@ export function Footer() {
   const socialLinks = [
     { icon: Mail, href: "mailto:ericaragundi@gmail.com", label: "Email" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/eric-aragundi/", label: "LinkedIn" },
-    { icon: BookOpen, href: "https://scholar.google.com", label: "Google Scholar" },
-    { icon: Github, href: "https://github.com", label: "GitHub" },
+    { icon: BookOpen, href: "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Bpz8cwEAAAAJ", label: "Google Scholar" },
+    // { icon: Github, href: "https://github.com", label: "GitHub" },
   ]
 
   return (
@@ -96,14 +96,6 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © {currentYear} Eric Aragundi — AI Consulting & Data Science Research. All rights reserved.
           </p>
-          <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-accent transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-accent transition-colors">
-              Terms of Service
-            </a>
-          </div>
         </div>
       </div>
     </footer>
