@@ -29,7 +29,7 @@ export function TestimonialsSection() {
     },
   ]
 
-  const partners = ["Stanford University", "MIT Media Lab", "Google Research", "Microsoft AI", "IBM Watson"]
+  const partners = ["Columbia University", "CUNY - Lehman College", "Google Scholar"]
 
   return (
     <section className="py-20 lg:py-32 bg-gradient-to-b from-muted/30 to-background relative overflow-hidden">

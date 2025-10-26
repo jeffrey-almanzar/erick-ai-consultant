@@ -48,9 +48,12 @@ export function HeroSection() {
                 size="lg"
                 variant="outline"
                 className="border-primary/30 hover:bg-primary/5 hover:border-primary w-full sm:w-auto bg-transparent transition-all"
+                asChild
               >
-                <BookOpen className="mr-2 h-4 w-4" />
-                View Research
+                <a href="#research" className="hover:text-primary transition-colors">
+                  <BookOpen className="mr-2 h-4 w-4" />
+                  View Research
+                </a>
               </Button>
             </div>
 
