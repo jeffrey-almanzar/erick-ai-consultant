@@ -68,7 +68,7 @@ export function HeroSection() {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur-xl" />
               <div className="relative bg-white/10 backdrop-blur-sm rounded-2xl p-2 border border-white/20">
                 <Image
-                  src="hero.png"
+                  src="hero.jpg"
                   alt="AI Research Consultant"
                   width={400}
                   height={500}
