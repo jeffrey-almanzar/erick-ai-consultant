@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -32,7 +33,14 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#" className="font-serif text-xl lg:text-2xl font-bold text-foreground">
+          <a href="#" className="flex items-center gap-3 font-serif text-xl lg:text-2xl font-bold text-foreground">
+            <Image
+              src="logo2.png"
+              alt="Eric Aragundi Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
             Eric Aragundi
           </a>
 

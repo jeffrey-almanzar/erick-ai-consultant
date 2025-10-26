@@ -24,6 +24,19 @@ export const metadata: Metadata = {
   authors: [{ name: 'Eric Aragundi' }],
   creator: 'Eric Aragundi',
   publisher: 'Eric Aragundi',
+  icons: {
+    icon: [
+      { url: 'logo2.png', sizes: '32x32', type: 'image/png' },
+      { url: 'logo2.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: [
+      { url: 'logo2.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: 'logo2.png', sizes: '192x192', type: 'image/png' },
+      { url: 'logo2.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
   // openGraph: {
   //   type: 'website',
   //   locale: 'en_US',
@@ -49,6 +62,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="logo2.png" type="image/png" />
+        <link rel="shortcut icon" href="logo2.png" type="image/png" />
+      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />

@@ -1,4 +1,5 @@
 import { Linkedin, Mail, BookOpen, Github } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -16,7 +17,16 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <h3 className="font-serif text-2xl font-bold text-foreground mb-4">Eric Aragundi</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="logo2.png"
+                alt="Eric Aragundi Logo"
+                width={40}
+                height={40}
+                className="w-10 h-10"
+              />
+              <h3 className="font-serif text-2xl font-bold text-foreground">Eric Aragundi</h3>
+            </div>
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
               AI Consulting & Data Science Research — Bringing academic rigor to real-world AI solutions.
             </p>
